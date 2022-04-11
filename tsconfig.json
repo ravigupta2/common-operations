@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es2017",
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "es2018",
+      "scripthost",
+      "es2015.collection"
+    ]
   },
   "include": [
     "src/**/*"
