@@ -1,6 +1,6 @@
 {
   "name": "common-operations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this has all common operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,6 +14,16 @@
     "publish-beta": "npm run build && npm publish --tag beta",
     "publish-dryrun": "npm run build && npm publish --dry-run"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravigupta2/common-operations.git"
+  },
+  "keywords": [
+    "operations",
+    "util",
+    "library",
+    "order"
+  ],
   "author": "ravi gupta",
   "license": "MIT",
   "dependencies": {
