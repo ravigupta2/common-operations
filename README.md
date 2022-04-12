@@ -60,6 +60,7 @@ javascript , typescript
 
 
 ## 🚀 About Me
+# Hi, I'm Ravi! 👋
 I'm a frontend developer...
 More to come soon
 
@@ -67,5 +68,7 @@ More to come soon
 ## 🛠 Skills
 Javascript, HTML, CSS , angular , node , electron  , scss ...
 
+## Feedback
 
+If you have any feedback  , suggestion , please reach out to us at rrsv.gupta@gmail.com
  
