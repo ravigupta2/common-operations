@@ -271,3 +271,38 @@ export const parseSupplementsKDS = (item) => {
     });
     return item;
 }
+
+// used to get unique objects of an array according to key.
+export const  getUniqueArrayBasedOnKey = (data, key) => {
+    return [...data.reduce((a, c) => {
+        a.set(c[key], c);
+        return a;
+    }, new Map()).values()];
+}
+
+// used to get only number from the input key
+export const allowOnlyNumberFromInputKey = (key) => {
+    const value = Number(key.key)
+    return !isNaN(value) ? !isNaN(value) : key.which == 8
+}
+
+// used to trim string till desired length
+export const trimString = (string, length) => {
+    return string.length > length ?
+        string.substring(0, length):
+        string;
+}
+
+// used to check whether the mobile browser is safari or not
+export const isMobileSafari = () => {
+    return navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+}
+
+// used to update the array based on desired key
+export const updateArrayBasedOnKey = (key , allProduct , currentProduct) => {
+    const index = allProduct.findIndex(pro => pro[key] != undefined && currentProduct[key] != undefined && pro[key] == currentProduct[key]);
+    if (index > -1) {
+        allProduct[index] = currentProduct;
+    }
+    return allProduct;
+}

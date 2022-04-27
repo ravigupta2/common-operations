@@ -1,6 +1,6 @@
 {
   "name": "common-operations",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "this has all common operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

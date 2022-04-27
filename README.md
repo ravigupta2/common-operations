@@ -43,6 +43,11 @@ function Steps() {
 | `checkProductSimilar`              | compare two prduct and check if they are similar or not (POS style)                   | `a and b`                                |
 | `getTimeAsNumberOfMinutes`         | convert time from HH:MM to number of minutes                                          | `time`                                   |
 | `parseSupplementsKDS`              | parse supplement item in kds format                                                   | `data`                                   |
+| `getUniqueArrayBasedOnKey`             | get unique objects of an array according to key                                                  | `data and key`                           |
+| `allowOnlyNumberFromInputKey`              | get only number from the input key                                                   | `key`                                    |
+| `trimString`              | trim string till desired length                                                   | `string and length`                      |
+| `isMobileSafari`              | check whether the mobile browser is safari or not                                                   | none                                     |
+| `updateArrayBasedOnKey`              | update the array based on desired key                                                   | `key , allProduct , currentProduct`                                   |
 
 ## Tech Stack
 
@@ -57,6 +62,7 @@ javascript , typescript
 ## Authors
 
 - [@ravigupta2](https://www.github.com/ravigupta2)
+- [@Aastha112](https://github.com/Aastha112)
 
 
 ## 🚀 About Me
